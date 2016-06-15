@@ -21,11 +21,13 @@
 				</header>
 				<div class="post">
 					{{#if data.post.image.secure_url}}
-					<div class="hero-image-container">
-						<img class="hero-image" src="{{{data.post.image.secure_url}}}"/>
+					<div class="post-image-container">
+						<img class="post-image" src="{{{data.post.image.secure_url}}}"/>
 					</div>
 					{{/if}}
-					{{{data.post.content.extended}}}
+					<div class="post-content">
+						{{{data.post.content.extended}}}
+					</div>
 				</div>
 			</article>
 		</div>

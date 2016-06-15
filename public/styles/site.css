@@ -5878,38 +5878,20 @@ body {
   color: #fff;
   letter-spacing: 3px; }
 
-@media (max-width: 768px) {
-  #lovebop-logo {
-    width: 240px; }
-  #strapline {
-    font-size: 2em; }
-  .date-box {
-    display: none; }
-  .main-text {
-    font-size: 0.8em; }
-  h1 {
-    font-size: 1.5em; }
-  h2 {
-    font-size: 1.3em; }
-  h3 {
-    font-size: 1.0em; }
-  h4 {
-    font-size: 0.8em; }
-  h5 {
-    font-size: 0.6em; }
-  h6 {
-    font-size: 0.4em; } }
-
-.hero-image {
-  margin-top: 25px;
+.hero-image, .post-image {
   width: 100%;
   object-fit: contain; }
+
+.hero-image {
+  margin-top: 25px; }
+
+.post-image {
+  margin-top: 0px; }
 
 .home-image {
   margin-left: 20px; }
 
-.main-text, .event-text {
-  /*font-size: 1.5em;*/
+.main-text, .event-text, .post-content {
   margin-top: 20px;
   margin-bottom: 10px; }
 
@@ -5973,3 +5955,65 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
 .signup-button {
   margin-top: 10px;
   width: 100%; }
+
+@media (max-width: 768px) {
+  #main-content {
+    padding: 20px; }
+  #lovebop-logo {
+    width: 240px; }
+  #strapline {
+    font-size: 1.8em;
+    letter-spacing: 1px; }
+  .date-box {
+    display: none; }
+  body {
+    font-size: 1.2em; }
+  .main-text, .event-text, .post, .post-content {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  h1 {
+    font-size: 1.8em;
+    margin-top: 18px;
+    margin-bottom: 9px; }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 14px;
+    margin-bottom: 7px; }
+  h3 {
+    font-size: 1.0em;
+    margin-top: 12px;
+    margin-bottom: 6px; }
+  h4 {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  h5 {
+    font-size: 0.6em;
+    margin-top: 8px;
+    margin-bottom: 4px; }
+  h6 {
+    font-size: 0.4em;
+    margin-top: 6px;
+    margin-bottom: 3px; }
+  .event-container, .blog-container {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px; }
+  .lead {
+    font-size: 0.6em;
+    margin-bottom: 12px; }
+  .read-more {
+    font-size: 0.6em;
+    margin-bottom: 8px; }
+  .blog-categories-list {
+    padding: 6px;
+    margin-right: 6px;
+    margin-top: 10px; }
+  .social-links-container {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .post-social-icon {
+    width: 20px; }
+  .hero-image {
+    margin-top: 12px; } }
