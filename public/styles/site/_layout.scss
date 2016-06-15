@@ -37,11 +37,12 @@ body {
   height: auto;
 }
 
-#main-content, #main-text-container  {
+#main-content  {
 	background-color: #fff;
 	padding: 40px;
 	margin-bottom: 20px;
-	object-fit: contain;
+	display: block;
+	overflow:auto;
 }
 
 .logo-container {
@@ -80,17 +81,23 @@ body {
 	.date-box {
 		display: none;
 	}
+	.main-text {
+		font-size: 0.8em;
+	}
 }
 
 .hero-image-container {
-	max-width: 100%;
+	
 }
 
 .hero-image {
-	max-width: 100%;
+	margin-top: 25px;
+	width: 100%;
 	object-fit: contain;
-	margin-top: 20px;
-	margin-bottom: 10px;
+}
+
+.home-image {
+	margin-left: 20px;
 }
 
 .main-text, .event-text {
