@@ -38,6 +38,9 @@ keystone.init({
 	'cookie secret': '18597e80fd52f26fae5c0805d37fabd4b07e06ece51159c83152f52a6f716daf142e49bed41310d53d3d705a3e7ee0f8b8b37ce9d5bbd1a902c475b123bfe143',
 	'cloudinary config': 'cloudinary://644185718342363:BbnaI4MW1m3UuVzfWPjgA72UXrM@lovebop',
 
+	'env': process.env.NODE_ENV || "production",
+
+	'mongo': process.env.MONGO_URI || "mongodb://localhost/lovebop"
 });
 
 // Load your project's Models
