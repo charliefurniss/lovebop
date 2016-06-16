@@ -34,7 +34,9 @@ keystone.init({
 	'auto update': true,
 	'session': true,
 	'auth': true,
-	'user model': 'User'
+	'user model': 'User',
+
+	'cloudinary config': 'cloudinary://644185718342363:BbnaI4MW1m3UuVzfWPjgA72UXrM@lovebop',
 
 });
 
@@ -56,7 +58,7 @@ keystone.set('locals', {
 keystone.set('google api key', 'AIzaSyDUE6cz9u8m_GraIXa3hhPgDlje1V1s6As');
 keystone.set('google server api key', 'process.env.GOOGLE_SERVER_KEY');
 
-keystone.set('cloudinary config', { cloud_name: 'lovebop', api_key: '644185718342363', api_secret: 'BbnaI4MW1m3UuVzfWPjgA72UXrM' });
+// keystone.set('cloudinary config', { cloud_name: 'lovebop', api_key: '644185718342363', api_secret: 'BbnaI4MW1m3UuVzfWPjgA72UXrM' });
 
 keystone.set('baseUrl', (keystone.get('env') == 'production') ? 'https://lovebop.herokuapp.com/' : 'http://localhost:3000/');
 
