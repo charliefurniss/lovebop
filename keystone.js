@@ -40,7 +40,7 @@ keystone.init({
 
 	'env': process.env.NODE_ENV || "production",
 
-	'mongo': process.env.MONGO_URI || "mongodb://localhost/lovebop"
+	'mongo': "mongodb://localhost/lovebop" || process.env.MONGO_URI
 });
 
 // Load your project's Models
