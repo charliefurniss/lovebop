@@ -28,12 +28,12 @@ exports.initLocals = function(req, res, next) {
 		{ label: 'HOME',		key: 'home',		href: '/' },
 		{ label: 'ABOUT',		key: 'about',		href: '/about' },
 		{ label: 'EVENTS',		key: 'events',		href: '/events' },
-		{ label: 'GALLERY',		key: 'gallery',		href: '/gallery' },
-		// { label: 'MIXES',		key: 'mixes',		href: '/mixes' },
-		// { label: 'TESTIMONIALS',		key: 'testimonials',		href: '/testimonials' },
+		{ label: 'TICKETS',		key: 'tickets',		href: '/tickets' },
+		//{ label: 'GALLERY',		key: 'gallery',		href: '/gallery' },
+		//{ label: 'MIXES',		key: 'mixes',		href: '/mixes' },
+		//{ label: 'TESTIMONIALS',		key: 'testimonials',		href: '/testimonials' },
 		{ label: 'BLOG',		key: 'blog',		href: '/blog' },
-		{ label: 'SIGN UP',		key: 'registration',	href: '/registration' }		
-		// { label: 'CONTACT',		key: 'contact',		href: '/contact' }
+		{ label: 'SIGN UP',		key: 'registration',	href: '/registration' }
 	];
 	
 	locals.user = req.user;

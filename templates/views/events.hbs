@@ -5,29 +5,27 @@
 		{{#each events}}
 		<div class="event-container">
 			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-4">
+				<!-- <div class="col-lg-2 col-md-3 col-sm-4">
 					<div class="date-box"> 
 						<p class="event-month">{{event_month date}}</p>
 						<p class="event-date">{{event_date date}}</p>
 					</div>	
-				</div>
+				</div> -->
 				<div class="col-lg-10 col-md-7 col-sm-8">
 					<h2 class="event-head">
-						{{name}} @ <a href="http://{{ location_url }}" target="_blank">{{ location }}</a>
+						{{name}}
 					</h2>
 					<p class="event-text">
 						<!-- {{ date date }} uses handlebars helper where the first is the name of the helper and the second is the key from the db -->
-						{{date date}}
+						{{date date}}<br>
+						{{ time start_at }}–{{ time end_at}}
 					</p>
-					<p class="event-text">	
-						Doors: {{ time start_at }}–{{ time end_at}}
+					<p class="event-text">
+						{{ venue }}<br>
+						{{ address1 }}<br> {{#if address2}} {{ address2 }}<br> {{/if}} {{ city }}<br> {{ postcode }}<br>
+						<a href="http://{{ location_url }}" target="_blank">{{ location_url }}</a>
 					</p>
-					<p class="event-text">	
-						Tickets: £{{ price }}
-					</p>
-					<!-- <p class="event-text">	
-						<a target="_blank" href="{{ location_url }}">{{ location_url }}</a>
-					</p> -->
+					<a href="#" class="btn btn-primary">Buy tickets</a>
 				</div>
 			</div>
 		</div>
@@ -36,5 +34,5 @@
 	<!-- else -->
 	<h3 class="text-muted">There are no events yet.</h3>
 	{{/if}}
-	<h3><a href="/registration">Stay in touch</a> for info about future Lovebop events.</h3>
+	<h4><a href="/registration">Sign up</a> for details of future events</h4>
 </div>

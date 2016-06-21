@@ -14,12 +14,15 @@ var Event = new keystone.List('Event', {
 Event.add({ 
     title: { type: String, required: true },
     name: { type: String },
-    location: { type: String },
+    venue: { type: String },
+    address1: { type: String },
+    address2: { type: String },
+    city: { type: String },
+    postcode: { type: String },
     location_url: { type: String },
     date: { type: Types.Date, format: "D MMM YYYY" },
     start_at: { type: Date, format: "HH:mm" },
-    end_at: { type: Date, format: "HH:mm" },
-    price: { type: Types.Money, currency: 'en-gb' }
+    end_at: { type: Date, format: "HH:mm" }
 });
 
 
