@@ -22,7 +22,8 @@ Event.add({
     location_url: { type: String },
     date: { type: Types.Date, format: "D MMM YYYY" },
     start_at: { type: Date, format: "HH:mm" },
-    end_at: { type: Date, format: "HH:mm" }
+    end_at: { type: Date, format: "HH:mm" },
+    ticket_url: { type: String }
 });
 
 
