@@ -25,7 +25,7 @@
 						{{ address1 }}<br> {{#if address2}} {{ address2 }}<br> {{/if}} {{ city }}<br> {{ postcode }}<br>
 						<a href="http://{{ location_url }}" target="_blank">{{ location_url }}</a>
 					</p>
-					<a href="http://{{ ticket_url }}" target="_blank" class="btn btn-primary">Buy tickets</a>
+					<a href="http://{{ ticket_url }}" target="_blank" class="btn btn-primary ticket-btn">Buy tickets</a>
 				</div>
 			</div>
 		</div>
@@ -34,5 +34,7 @@
 	<!-- else -->
 	<h3 class="text-muted">There are no events yet.</h3>
 	{{/if}}
-	<h4><a href="/registration">Sign up</a> for details of future events</h4>
+	<div class="event-container">
+		<h3><a href="/registration">Sign up</a> for details of future events</h3>
+	</div>
 </div>
