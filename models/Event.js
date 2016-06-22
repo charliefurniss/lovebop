@@ -21,8 +21,8 @@ Event.add({
     postcode: { type: String },
     location_url: { type: String },
     date: { type: Types.Date },
-    start_at: { type: Date, format: "HH:mm" },
-    end_at: { type: Date, format: "HH:mm" },
+    start_at: { type: String },
+    end_at: { type: String },
     ticket_url: { type: String }
 });
 
