@@ -17,7 +17,7 @@ Registration.add({
 	// enquiryType: { type: Types.Select, options: [
 	// 	{ value: 'Registration', label: 'Please let me know about what\'s happening with LoveBop' }
 	// ] },
-	message: { type: Types.Markdown},
+	// message: { type: Types.Markdown},
 	createdAt: { type: Date, default: Date.now }
 });
 
