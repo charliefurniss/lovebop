@@ -20,9 +20,7 @@ Event.add({
     city: { type: String },
     postcode: { type: String },
     location_url: { type: String },
-<<<<<<< HEAD
     date: { type: Types.Date },
->>>>>>> d504f67f0455246c2d55d5ff484656a953a61859
     start_at: { type: Date, format: "HH:mm" },
     end_at: { type: Date, format: "HH:mm" },
     ticket_url: { type: String }
