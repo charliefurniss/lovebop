@@ -5859,7 +5859,8 @@ body {
 
 .logo-container {
   margin-top: 30px;
-  float: left; }
+  float: left;
+  width: 100%; }
 
 .title-container {
   text-align: right;
@@ -5868,15 +5869,17 @@ body {
 #title {
   font-size: 6em; }
 
-#strap-container {
+.strap-container {
   clear: both; }
 
-#strapline {
-  text-align: right;
+#strapline1, #strapline2 {
   font-size: 2.5em;
   font-style: italic;
   color: #fff;
   letter-spacing: 3px; }
+
+#strapline1 {
+  text-align: right; }
 
 .hero-image, .post-image {
   width: 100%;
