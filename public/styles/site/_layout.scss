@@ -47,6 +47,7 @@ body {
 
 .logo-container {
 	margin-top: 30px;
+	margin-bottom: 15px;
 	float: left;
 	width: 100%;	
 }
@@ -65,8 +66,9 @@ body {
 }
 
 #strapline1, #strapline2 {
-	font-size: 2em;
+	font-size: 1.8em;
 	font-style: italic;
+	font-weight: 500;
 	color: #fff;
 	letter-spacing: 3px;
 }
@@ -186,8 +188,13 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
 		width: 240px;
 	}
 
+	.logo-container {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}	
+
 	#strapline1 {
-		font-size: 1.8em;
+		font-size: 1.5em;
 		letter-spacing: 1px;
 	}
 	
