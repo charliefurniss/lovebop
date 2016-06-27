@@ -1139,7 +1139,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Permanent Marker", cursive;
   font-weight: inherit;
   line-height: 1.1;
   color: inherit; }
@@ -5873,14 +5873,10 @@ body {
 .strap-container {
   clear: both; }
 
-#strapline1, #strapline2 {
+#strapline {
   font-size: 1.8em;
-  font-style: italic;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 3px; }
-
-#strapline1 {
   text-align: right; }
 
 .hero-image, .post-image {
@@ -5932,7 +5928,7 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-top: 1px solid; }
+  border-top: 2px solid; }
 
 .event-head, .event-text {
   margin-bottom: 20px; }
@@ -5973,7 +5969,7 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
   .logo-container {
     margin-top: 20px;
     margin-bottom: 10px; }
-  #strapline1 {
+  #strapline {
     font-size: 1.5em;
     letter-spacing: 1px; }
   .date-box {
