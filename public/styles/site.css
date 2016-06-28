@@ -1139,7 +1139,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Permanent Marker", cursive;
+  font-family: "markerfelt";
   font-weight: inherit;
   line-height: 1.1;
   color: inherit; }
@@ -5830,6 +5830,13 @@ body {
   background-size: cover;
   font-weight: 700; }
 
+@font-face {
+  font-family: markerfelt;
+  src: url("../fonts/Marker-Felt.ttf.woff"); }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
 #lovebop-logo {
   width: 460px; }
 
@@ -5876,6 +5883,7 @@ body {
 #strapline {
   font-size: 1.8em;
   font-weight: 500;
+  text-transform: uppercase;
   color: #fff;
   text-align: right; }
 
