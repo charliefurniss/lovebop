@@ -5835,7 +5835,7 @@ body {
   src: url("../fonts/Marker-Felt.ttf.woff"); }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase; }
+  font-weight: 200; }
 
 #lovebop-logo {
   width: 460px; }
@@ -5883,7 +5883,6 @@ h1, h2, h3, h4, h5, h6 {
 #strapline {
   font-size: 1.8em;
   font-weight: 500;
-  text-transform: uppercase;
   color: #fff;
   text-align: right; }
 
