@@ -5881,10 +5881,9 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 #strapline {
-  font-size: 1.8em;
-  font-weight: 500;
   color: #fff;
-  text-align: right; }
+  text-align: right;
+  letter-spacing: 2px; }
 
 .hero-image, .post-image {
   width: 100%;
@@ -5977,7 +5976,8 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
     margin-top: 20px;
     margin-bottom: 10px; }
   #strapline {
-    font-size: 1.5em;
+    /*		font-size: 1.5em;
+*/
     letter-spacing: 1px; }
   .date-box {
     display: none; }
@@ -5995,19 +5995,19 @@ a.post-social-link, a.post-social-link:hover, a.post-social-link:active, a.post-
     margin-top: 14px;
     margin-bottom: 7px; }
   h3 {
-    font-size: 1.0em;
+    font-size: 1.3em;
     margin-top: 12px;
     margin-bottom: 6px; }
   h4 {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 10px;
     margin-bottom: 5px; }
   h5 {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-top: 8px;
     margin-bottom: 4px; }
   h6 {
-    font-size: 0.4em;
+    font-size: 0.6em;
     margin-top: 6px;
     margin-bottom: 3px; }
   .event-container, .blog-container {
