@@ -1,0 +1,328 @@
+@font-face {
+    
+    font-family: GT-Walsheim-Bold;
+    src: url(../fonts/GT-Walsheim-Bold.woff);
+
+}
+
+@font-face {
+
+    font-family: GT-Walsheim-Light;
+    src: url(../fonts/GT-Walsheim-Light.woff);
+
+}
+
+@font-face {
+
+    font-family: GT-Walsheim-Medium;
+    src: url(../fonts/gt-walsheim-medium-web.woff);
+
+}
+
+@media screen and (max-width: 544px) {
+
+	#sort-by {
+
+		display: none;
+
+	}
+
+}
+
+
+body {
+    
+    font-family: GT-Walsheim-Light;
+	color: #FFFFFF;
+	height: 100%;
+	background-color: #01D2BD;
+	background-size: cover;
+
+}
+
+.container-fluid,
+.film-list {
+
+	padding: 0;
+
+}
+
+.film-container {
+
+	color: black;
+	border-radius: 3px;
+
+}
+
+.film-container,
+#search-input,
+#search-submit,
+.sort-button {
+
+	background-color: #FFFFFF;
+
+}
+
+.film-info {
+
+	vertical-align: top;
+	overflow: auto;
+
+}
+
+.film-info,
+#header-title,
+#search-submit {
+
+	font-family: GT-Walsheim-Medium;
+
+}
+
+.film-inner {
+	
+	height: 130px;
+	padding: 15px;
+
+}
+
+.film-listing {
+
+	list-style: none;
+	margin-top: 40px;
+
+}
+
+.film-poster {
+
+	width: 65px;
+	height: 100px;
+
+}
+
+.film-title {
+
+	color: #3F4B56;
+	font-size: 16px;
+	overflow: auto;
+	width: 100%;
+
+}
+
+.film-title,
+.film-year {
+
+	margin-top: 3px;
+
+}
+
+.film-type {
+
+	font-size: 11px;
+	text-transform: uppercase;
+
+}
+
+.film-year {
+
+	font-size: 11px;
+
+}
+
+.film-year,
+#search-input,
+#strapline {
+
+	color: #AEBAC8;
+
+}
+
+.header-content, 
+#results-head, 
+.results-header-content {
+
+	display: inline;
+
+}
+
+#header-logo {
+
+	width: 50px;
+	height: 42px;
+
+}
+
+#header-title {
+
+	font-size: 18px;
+	vertical-align: middle;
+	margin-left: 10px;
+
+}
+
+#header {
+
+	margin-bottom: 90px;
+
+}
+
+input[type="text"]:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus {
+
+	outline: none;
+
+}
+
+#results-container {
+
+	background-color: #01D2BD;
+	padding: 25px;
+	overflow: scroll;
+	display: none;
+
+}
+
+#results-head {
+
+	font-size: 34px;
+
+}
+
+#results-header {
+
+	padding: 40px 15px 10px 15px;
+
+}
+
+.results-header-content {
+
+	font-size: 11px;
+
+}
+
+.results-header-content,
+#title {
+
+	font-family: GT-Walsheim-Bold;
+
+}
+
+.search { 
+	
+	margin: 3px; 
+	background: url('../images/search-icon.png') no-repeat 34px 22px; 
+
+}
+
+#search-area,
+#title-container {
+
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+#search-border {
+
+	border-left: 1px solid #AEBAC8;
+
+}
+
+#search-input {
+
+	width: 500px;
+	padding: 15px 60px;
+	margin-right: -5px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+}
+
+#search-input,
+#search-submit {
+
+	border: none;
+	font-size: 20px;
+
+}
+
+#search-submit {
+
+	width: 150px;
+	padding: 15px 30px;
+	color: #3F4B56;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+
+#sort-container {
+
+	float: right;
+
+}
+
+.sort-active {
+
+	background-color: #019A8B;
+
+}
+
+.sort-active,
+.sort-button {
+
+	padding: 10px;
+	margin-left: 10px;
+	border: none;
+	border-radius: 3px;
+
+}
+
+.sort-button {
+
+	color: #121C25;
+
+}
+
+#strap-highlight {
+
+	color: #01D2BD;
+
+}
+
+#strapline {
+
+	font-size: 30px;
+
+}
+
+#title {
+
+	font-size: 45px;
+
+}
+
+#top-container {
+
+	background-color: #121C25;
+	padding: 40px;
+
+}
+
+.type-game {
+
+	color: #019A8B;
+
+}
+
+.type-movie {
+
+	color: #88D1Ef;
+
+}
+
+.type-series {
+
+	color: #ED164F;
+
+}
